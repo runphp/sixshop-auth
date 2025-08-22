@@ -1,0 +1,34 @@
+{
+  "name": "six-shop/auth",
+  "description": "认证模块",
+  "type": "sixshop-extension",
+  "keywords": [
+    "sixshop",
+    "thinkphp"
+  ],
+  "require": {
+    "php": ">=8.3",
+    "six-shop/core": ">=0.4 <1.0"
+  },
+  "authors": [
+    {
+      "name": "hui he",
+      "email": "runphp@qq.com"
+    }
+  ],
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "SixShop\\Auth\\": "src"
+    },
+    "files": [
+      "src/helper.php"
+    ]
+  },
+  "extra": {
+    "sixshop": {
+      "id": "auth",
+      "class": "SixShop\\auth\\Extension"
+    }
+  }
+}
