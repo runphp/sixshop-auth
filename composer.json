@@ -28,7 +28,7 @@
   "extra": {
     "sixshop": {
       "id": "auth",
-      "class": "SixShop\\auth\\Extension"
+      "class": "SixShop\\Auth\\Extension"
     }
   }
 }
